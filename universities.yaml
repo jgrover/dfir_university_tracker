@@ -1,0 +1,1443 @@
+# U.S. digital-forensics university catalog — source of truth.
+# Edit this YAML, then run: python tools/yaml_to_json.py
+# School id values are immutable.
+
+version: 1
+universities:
+- id: albany
+  name: University at Albany, SUNY
+  city: Albany
+  state: NY
+  site: https://www.albany.edu/cehc/programs/ms-digital-forensics-cybersecurity
+  programs:
+  - name: B.S. Digital Forensics
+    url: https://www.albany.edu/cehc/programs/bs-digital-forensics
+    level: bachelor
+  - name: M.S. Digital Forensics and Cybersecurity
+    url: https://www.albany.edu/cehc/programs/ms-digital-forensics-cybersecurity
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university at albany
+  - suny albany
+  - university at albany suny
+  poc_name: Sanjay Goel
+  poc_email: goel@albany.edu
+- id: arizona
+  name: University of Arizona
+  city: Tucson
+  state: AZ
+  site: https://cybersecurity.arizona.edu/
+  programs:
+  - name: M.S. Cyber and Information Operations
+    url: https://cybersecurity.arizona.edu/academics/graduate/ms-cyber-and-information-operations
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  - CAE-CO
+  cdfae: false
+  aliases:
+  - university of arizona
+  poc_name: ''
+  poc_email: ''
+- id: capitol-tech
+  name: Capitol Technology University
+  city: Laurel
+  state: MD
+  site: https://www.captechu.edu/degrees-and-programs/bachelors-degrees/digital-forensics-bs
+  programs:
+  - name: B.S. Digital Forensics
+    url: https://www.captechu.edu/degrees-and-programs/bachelors-degrees/digital-forensics-bs
+    level: bachelor
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - capitol technology university
+  - capitol college
+  poc_name: ''
+  poc_email: ''
+- id: carnegie-mellon
+  name: Carnegie Mellon University
+  city: Pittsburgh
+  state: PA
+  site: https://www.cmu.edu/ini/academics/msis.html
+  programs:
+  - name: M.S. Information Security — Cyber Forensics and Incident Response track
+    url: https://www.cmu.edu/ini/academics/msis.html
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  - CAE-CO
+  cdfae: false
+  aliases:
+  - carnegie mellon university
+  - cmu
+  poc_name: ''
+  poc_email: ''
+- id: champlain
+  name: Champlain College
+  city: Burlington
+  state: VT
+  site: https://www.champlain.edu/academics/undergraduate-academics/degrees-programs/digital-forensics/
+  programs:
+  - name: B.S. Digital Forensics
+    url: https://www.champlain.edu/academics/undergraduate-academics/degrees-programs/digital-forensics/
+    level: bachelor
+  - name: M.S. Digital Forensic Science
+    url: https://www.champlain.edu/academics/graduate-academics/degrees-programs/digital-forensic-science-masters/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: true
+  aliases:
+  - champlain college
+  poc_name: ''
+  poc_email: ''
+- id: commonwealth-pa
+  name: Commonwealth University of Pennsylvania
+  city: Bloomsburg
+  state: PA
+  site: https://www.commonwealthu.edu/academics/programs/digital-forensics-and-cybersecurity-bs
+  programs:
+  - name: B.S. Digital Forensics and Cybersecurity
+    url: https://www.commonwealthu.edu/academics/programs/digital-forensics-and-cybersecurity-bs
+    level: bachelor
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - bloomsburg university
+  - commonwealth university
+  - commonwealth university of pennsylvania
+  poc_name: ''
+  poc_email: ''
+- id: dakota-state
+  name: Dakota State University
+  city: Madison
+  state: SD
+  site: https://dsu.edu/academics/computer-and-cyber-sciences/
+  programs:
+  - name: B.S. Computer Forensics / Cyber Operations
+    url: https://dsu.edu/academics/computer-and-cyber-sciences/
+    level: bachelor
+  cae:
+  - CAE-CD
+  - CAE-R
+  - CAE-CO
+  cdfae: false
+  aliases:
+  - dakota state university
+  poc_name: Josh Stroschein
+  poc_email: joshua.stroschein@dsu.edu
+- id: emu
+  name: Eastern Michigan University
+  city: Ypsilanti
+  state: MI
+  site: https://www.emich.edu/cet/programs/information-assurance.php
+  programs:
+  - name: B.S. Information Assurance and Cyber Defense
+    url: https://www.emich.edu/cet/programs/information-assurance.php
+    level: bachelor
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - eastern michigan university
+  poc_name: ''
+  poc_email: ''
+- id: ferris-state
+  name: Ferris State University
+  city: Big Rapids
+  state: MI
+  site: https://www.ferris.edu/HTMLS/colleges/business/account-finance-info-systems/isi.htm
+  programs:
+  - name: B.S. Information Security and Intelligence
+    url: https://www.ferris.edu/HTMLS/colleges/business/account-finance-info-systems/isi.htm
+    level: bachelor
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - ferris state university
+  poc_name: ''
+  poc_email: ''
+- id: gmu
+  name: George Mason University
+  city: Fairfax
+  state: VA
+  site: https://ece.gmu.edu/academics/masters/ms-computer-forensics
+  programs:
+  - name: M.S. Computer Forensics
+    url: https://ece.gmu.edu/academics/masters/ms-computer-forensics
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - george mason university
+  poc_name: Umit Karabiyik
+  poc_email: ukarabiy@gmu.edu
+- id: iit
+  name: Illinois Institute of Technology
+  city: Chicago
+  state: IL
+  site: https://www.iit.edu/academics/programs/applied-cybersecurity-and-digital-forensics-mas
+  programs:
+  - name: M.A.S. Applied Cybersecurity and Digital Forensics
+    url: https://www.iit.edu/academics/programs/applied-cybersecurity-and-digital-forensics-mas
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - illinois institute of technology
+  - illinois tech
+  poc_name: Nicole Beebe
+  poc_email: nbeebe1@illinoistech.edu
+- id: john-jay
+  name: John Jay College of Criminal Justice, CUNY
+  city: New York
+  state: NY
+  site: https://www.jjay.cuny.edu/academics/graduate-programs/digital-forensics-cybersecurity-ms
+  programs:
+  - name: M.S. Digital Forensics and Cybersecurity
+    url: https://www.jjay.cuny.edu/academics/graduate-programs/digital-forensics-cybersecurity-ms
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - john jay college
+  - john jay college of criminal justice
+  poc_name: ''
+  poc_email: ''
+- id: marshall
+  name: Marshall University
+  city: Huntington
+  state: WV
+  site: https://www.marshall.edu/forensics/
+  programs:
+  - name: Digital Forensics and Information Assurance
+    url: https://www.marshall.edu/forensics/
+    level: bachelor
+  - name: M.S. Forensic Science — Digital Forensics
+    url: https://www.marshall.edu/forensics/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - marshall university
+  poc_name: Josh Brunty
+  poc_email: josh.brunty@marshall.edu
+- id: mga
+  name: Middle Georgia State University
+  city: Macon
+  state: GA
+  site: https://www.mga.edu/computing/information-technology/digital-forensics-academic-excellence.php
+  programs:
+  - name: M.S. Information Technology — Cyber Security and Forensics
+    url: https://www.mga.edu/academics/programs/information-technology-ms.php
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: true
+  aliases:
+  - middle georgia state university
+  - middle georgia state
+  poc_name: ''
+  poc_email: ''
+- id: niagara
+  name: Niagara University
+  city: Niagara University
+  state: NY
+  site: https://www.niagara.edu/niagara-university-national-center-of-academic-excellence-in-cybersecurity-cae-cd/
+  programs:
+  - name: M.S. Information Security and Digital Forensics
+    url: https://www.niagara.edu/niagara-university-national-center-of-academic-excellence-in-cybersecurity-cae-cd/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - niagara university
+  poc_name: ''
+  poc_email: ''
+- id: norwich
+  name: Norwich University
+  city: Northfield
+  state: VT
+  site: https://www.norwich.edu/academics/undergraduate/computer-security-information-assurance
+  programs:
+  - name: B.S. Computer Security and Information Assurance
+    url: https://www.norwich.edu/academics/undergraduate/computer-security-information-assurance
+    level: bachelor
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - norwich university
+  - norwich university applied research institute
+  poc_name: Huw O. L. Read
+  poc_email: hread@norwich.edu
+- id: purdue
+  name: Purdue University
+  city: West Lafayette
+  state: IN
+  site: https://polytechnic.purdue.edu/degrees/ms-computer-and-information-technology
+  programs:
+  - name: M.S. Computer and Information Technology — Cyber Forensics
+    url: https://polytechnic.purdue.edu/degrees/ms-computer-and-information-technology
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  - CAE-CO
+  cdfae: false
+  aliases:
+  - purdue university
+  - purdue university west lafayette
+  poc_name: Marcus Rogers
+  poc_email: rogersmk@purdue.edu
+- id: rit
+  name: Rochester Institute of Technology
+  city: Rochester
+  state: NY
+  site: https://www.rit.edu/study/computing-security-ms
+  programs:
+  - name: M.S. Computing Security
+    url: https://www.rit.edu/study/computing-security-ms
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - rochester institute of technology
+  poc_name: Yin Pan
+  poc_email: yin.pan@rit.edu
+- id: sam-houston
+  name: Sam Houston State University
+  city: Huntsville
+  state: TX
+  site: https://www.shsu.edu/academics/criminal-justice/degrees/
+  programs:
+  - name: M.S. Digital Forensics
+    url: https://www.shsu.edu/academics/criminal-justice/degrees/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - sam houston state university
+  poc_name: ''
+  poc_email: ''
+- id: stevenson
+  name: Stevenson University
+  city: Owings Mills
+  state: MD
+  site: https://www.stevenson.edu/academics/undergraduate-programs/cybersecurity-digital-forensics/
+  programs:
+  - name: B.S. Cybersecurity and Digital Forensics
+    url: https://www.stevenson.edu/academics/undergraduate-programs/cybersecurity-digital-forensics/
+    level: bachelor
+  - name: M.S. Cybersecurity and Digital Forensics
+    url: https://www.stevenson.edu/academics/graduate-programs/cybersecurity-digital-forensics/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: true
+  aliases:
+  - stevenson university
+  poc_name: ''
+  poc_email: ''
+- id: syracuse
+  name: Syracuse University
+  city: Syracuse
+  state: NY
+  site: https://ischool.syr.edu/academics/digital-forensics-masters-degree/
+  programs:
+  - name: M.S. Digital Forensics
+    url: https://ischool.syr.edu/academics/digital-forensics-masters-degree/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - syracuse university
+  poc_name: ''
+  poc_email: ''
+- id: towson
+  name: Towson University
+  city: Towson
+  state: MD
+  site: https://www.towson.edu/fcsm/departments/computerinfosci/grad/computer/
+  programs:
+  - name: M.S. Computer Science — Computer Security / Forensics
+    url: https://www.towson.edu/fcsm/departments/computerinfosci/grad/computer/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - towson university
+  poc_name: ''
+  poc_email: ''
+- id: uab
+  name: University of Alabama at Birmingham
+  city: Birmingham
+  state: AL
+  site: https://www.uab.edu/cas/criminaljustice/graduate-programs/ms-cfs-m
+  programs:
+  - name: B.S. Digital Forensics
+    url: https://www.uab.edu/cas/criminaljustice/undergraduate/digital-forensics
+    level: bachelor
+  - name: M.S. Computer Forensics and Security Management
+    url: https://www.uab.edu/cas/criminaljustice/graduate-programs/ms-cfs-m
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of alabama at birmingham
+  - uab
+  poc_name: ''
+  poc_email: ''
+- id: ucf
+  name: University of Central Florida
+  city: Orlando
+  state: FL
+  site: https://www.ucf.edu/degree/digital-forensics-ms/
+  programs:
+  - name: M.S. Digital Forensics
+    url: https://www.ucf.edu/degree/digital-forensics-ms/
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of central florida
+  poc_name: Cliff Zou
+  poc_email: changchun.zou@ucf.edu
+- id: umgc
+  name: University of Maryland Global Campus
+  city: Adelphi
+  state: MD
+  site: https://www.umgc.edu/online-degrees/masters/digital-forensics-cyber-investigation
+  programs:
+  - name: M.S. Digital Forensics and Cyber Investigation
+    url: https://www.umgc.edu/online-degrees/masters/digital-forensics-cyber-investigation
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - university of maryland global campus
+  - university of maryland university college
+  - umuc
+  poc_name: ''
+  poc_email: ''
+- id: new-haven
+  name: University of New Haven
+  city: West Haven
+  state: CT
+  site: https://www.newhaven.edu/lee-college/programs/graduate/digital-forensics-investigations-ms.php
+  programs:
+  - name: M.S. Digital Forensics Investigations
+    url: https://www.newhaven.edu/lee-college/programs/graduate/digital-forensics-investigations-ms.php
+    level: master
+  cae:
+  - CAE-CO
+  cdfae: false
+  aliases:
+  - university of new haven
+  - baggili i truth bit lab
+  - baggili(i) truth (bit) lab
+  - baggili truth bit lab
+  poc_name: Lisa Dadio
+  poc_email: ldadio@newhaven.edu
+- id: uri
+  name: University of Rhode Island
+  city: Kingston
+  state: RI
+  site: https://web.uri.edu/osi/programs/digitalforensics/
+  programs:
+  - name: Digital Forensics Graduate Certificate / M.S. CS track
+    url: https://web.uri.edu/osi/programs/digitalforensics/
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - university of rhode island
+  poc_name: Victor Fay-Wolfe
+  poc_email: wolfe@cs.uri.edu
+- id: tulsa
+  name: University of Tulsa
+  city: Tulsa
+  state: OK
+  site: https://engineering.utulsa.edu/cyber-studies/
+  programs:
+  - name: Cyber Studies / Digital Forensics
+    url: https://engineering.utulsa.edu/cyber-studies/
+    level: bachelor
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of tulsa
+  poc_name: ''
+  poc_email: ''
+- id: utsa
+  name: The University of Texas at San Antonio
+  city: San Antonio
+  state: TX
+  site: https://www.utsa.edu/sciences/computer-science/
+  programs:
+  - name: Cybersecurity programs with digital-forensics research
+    url: https://www.utsa.edu/sciences/computer-science/
+    level: master
+  cae:
+  - CAE-CD
+  - CAE-R
+  - CAE-CO
+  cdfae: false
+  aliases:
+  - the university of texas at san antonio
+  - university of texas at san antonio
+  - utsa
+  poc_name: ''
+  poc_email: ''
+- id: utica
+  name: Utica University
+  city: Utica
+  state: NY
+  site: https://www.utica.edu/academics/programs/cybersecurity-ms
+  programs:
+  - name: M.S. Cybersecurity — Digital Forensics specialization
+    url: https://www.utica.edu/academics/programs/cybersecurity-ms
+    level: master
+  cae:
+  - CAE-CD
+  cdfae: true
+  aliases:
+  - utica university
+  - utica college
+  poc_name: ''
+  poc_email: ''
+- id: wvu
+  name: West Virginia University
+  city: Morgantown
+  state: WV
+  site: https://www.statler.wvu.edu/academics/graduate-programs
+  programs:
+  - name: Forensic and investigative science / digital evidence programs
+    url: https://forensics.wvu.edu/
+    level: bachelor
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - west virginia university
+  poc_name: ''
+  poc_email: ''
+- id: afit
+  name: Air Force Institute of Technology
+  city: Wright-Patterson AFB
+  state: OH
+  site: https://www.afit.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - u.s. air force institute of technology
+  - air force institute of technology
+  poc_name: ''
+  poc_email: ''
+- id: asu
+  name: Arizona State University
+  city: Tempe
+  state: AZ
+  site: https://www.asu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - arizona state university
+  poc_name: ''
+  poc_email: ''
+- id: augusta
+  name: Augusta University
+  city: Augusta
+  state: GA
+  site: https://www.augusta.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - augusta university
+  poc_name: Gokila Dorai
+  poc_email: gdorai@augusta.edu
+- id: belhaven
+  name: Belhaven University
+  city: Jackson
+  state: MS
+  site: https://www.belhaven.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - belhaven university
+  poc_name: ''
+  poc_email: ''
+- id: bgsu
+  name: Bowling Green State University
+  city: Bowling Green
+  state: OH
+  site: https://www.bgsu.edu/arts-and-sciences/computer-science.html
+  programs:
+  - name: M.S. Computer Science — cybersecurity and digital forensics
+    url: https://www.bgsu.edu/arts-and-sciences/computer-science.html
+    level: master
+  cae: []
+  cdfae: false
+  aliases:
+  - bowling green state university
+  poc_name: Sankardas Roy
+  poc_email: sanroy@bgsu.edu
+- id: bu
+  name: Boston University
+  city: Boston
+  state: MA
+  site: https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/
+  programs:
+  - name: Graduate Certificate in Digital Forensics / M.S. CIS concentration
+    url: https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/
+    level: certificate
+  cae: []
+  cdfae: false
+  aliases:
+  - boston university
+  - boston university metropolitan college
+  poc_name: ''
+  poc_email: ''
+- id: bridgeport
+  name: University of Bridgeport
+  city: Bridgeport
+  state: CT
+  site: https://www.bridgeport.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - university of bridgeport
+  poc_name: ''
+  poc_email: ''
+- id: case-western
+  name: Case Western Reserve University
+  city: Cleveland
+  state: OH
+  site: https://case.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - case western reserve university
+  poc_name: ''
+  poc_email: ''
+- id: cu-denver
+  name: University of Colorado Denver
+  city: Denver
+  state: CO
+  site: https://artsandmedia.ucdenver.edu/academics/departments/music-entertainment-arts/national-center-for-media-forensics
+  programs:
+  - name: M.S. Recording Arts — Media Forensics
+    url: https://artsandmedia.ucdenver.edu/academics/departments/music-entertainment-arts/national-center-for-media-forensics
+    level: master
+  cae: []
+  cdfae: false
+  aliases:
+  - university of colorado denver
+  - cu denver
+  - university of colorado denver anschutz
+  - national center for media forensics
+  poc_name: Catalin Grigoras
+  poc_email: catalin.grigoras@ucdenver.edu
+- id: depaul
+  name: DePaul University
+  city: Chicago
+  state: IL
+  site: https://www.depaul.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - depaul university
+  poc_name: Alexander Rasin
+  poc_email: arasin@cdm.depaul.edu
+- id: desales
+  name: DeSales University
+  city: Center Valley
+  state: PA
+  site: https://catalog.desales.edu/preview_program.php?catoid=15&poid=2625
+  programs:
+  - name: B.A. Criminal Justice — Digital Forensics track
+    url: https://catalog.desales.edu/preview_program.php?catoid=15&poid=2625
+    level: bachelor
+  - name: M.A. Criminal Justice — Digital Forensics
+    url: https://www.desales.edu/academics/academic-programs/detail/master-of-criminal-justice-digital-forensics
+    level: master
+  cae: []
+  cdfae: false
+  aliases:
+  - desales university
+  - de sales university
+  poc_name: ''
+  poc_email: ''
+- id: drexel
+  name: Drexel University
+  city: Philadelphia
+  state: PA
+  site: https://drexel.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - drexel university
+  poc_name: ''
+  poc_email: ''
+- id: duke
+  name: Duke University
+  city: Durham
+  state: NC
+  site: https://www.duke.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - duke university
+  poc_name: ''
+  poc_email: ''
+- id: eku
+  name: Eastern Kentucky University
+  city: Richmond
+  state: KY
+  site: https://www.eku.edu/stem/computer-science-and-information-technology/bs-digital-forensics-and-cybersecurity/
+  programs:
+  - name: B.S. Digital Forensics and Cybersecurity
+    url: https://www.eku.edu/stem/computer-science-and-information-technology/bs-digital-forensics-and-cybersecurity/
+    level: bachelor
+  cae: []
+  cdfae: false
+  aliases:
+  - eastern kentucky university
+  poc_name: ''
+  poc_email: ''
+- id: fau
+  name: Florida Atlantic University
+  city: Boca Raton
+  state: FL
+  site: https://www.fau.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - florida atlantic university
+  poc_name: ''
+  poc_email: ''
+- id: fiu
+  name: Florida International University
+  city: Miami
+  state: FL
+  site: https://www.fiu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - florida international university
+  poc_name: ''
+  poc_email: ''
+- id: fsu
+  name: Florida State University
+  city: Tallahassee
+  state: FL
+  site: https://www.fsu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - florida state university
+  poc_name: ''
+  poc_email: ''
+- id: georgetown
+  name: Georgetown University
+  city: Washington
+  state: DC
+  site: https://www.georgetown.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - georgetown university
+  poc_name: ''
+  poc_email: ''
+- id: gatech
+  name: Georgia Institute of Technology
+  city: Atlanta
+  state: GA
+  site: https://www.gatech.edu/
+  programs: []
+  cae:
+  - CAE-R
+  - CAE-CO
+  cdfae: false
+  aliases:
+  - georgia institute of technology
+  - georgia tech
+  poc_name: Brendan Saltaformaggio
+  poc_email: brendan@ece.gatech.edu
+- id: iowa-state
+  name: Iowa State University
+  city: Ames
+  state: IA
+  site: https://www.iastate.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - iowa state university
+  poc_name: Yong Guan
+  poc_email: guan@iastate.edu
+- id: iu-indianapolis
+  name: Indiana University Indianapolis
+  city: Indianapolis
+  state: IN
+  site: https://science.indianapolis.iu.edu/academics/degrees-and-programs/_degrees/digital-forensics-bs-iuinsci.html
+  programs:
+  - name: B.S. Digital Forensics
+    url: https://science.indianapolis.iu.edu/academics/degrees-and-programs/_degrees/digital-forensics-bs-iuinsci.html
+    level: bachelor
+  cae: []
+  cdfae: false
+  aliases:
+  - indiana university indianapolis
+  - iu indianapolis
+  - iupui
+  - indiana university purdue university indianapolis
+  poc_name: ''
+  poc_email: ''
+- id: lewis
+  name: Lewis University
+  city: Romeoville
+  state: IL
+  site: https://www.lewisu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - lewis university
+  poc_name: ''
+  poc_email: ''
+- id: lsu
+  name: Louisiana State University
+  city: Baton Rouge
+  state: LA
+  site: https://www.lsu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - louisiana state university
+  - lsu
+  - lsu new orleans
+  - louisiana state university agricultural center
+  poc_name: Ibrahim Baggili
+  poc_email: ibaggili@lsu.edu
+- id: msu
+  name: Michigan State University
+  city: East Lansing
+  state: MI
+  site: https://www.msu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - michigan state university
+  poc_name: ''
+  poc_email: ''
+- id: mississippi-state
+  name: Mississippi State University
+  city: Starkville
+  state: MS
+  site: https://www.msstate.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - mississippi state university
+  poc_name: ''
+  poc_email: ''
+- id: ncsu
+  name: North Carolina State University
+  city: Raleigh
+  state: NC
+  site: https://facultyclusters.ncsu.edu/people/kameikle/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - north carolina state university
+  - nc state
+  poc_name: Kelly Meiklejohn
+  poc_email: kameikle@ncsu.edu
+- id: njit
+  name: New Jersey Institute of Technology
+  city: Newark
+  state: NJ
+  site: https://catalog.njit.edu/undergraduate/science-liberal-arts/chemistry-environmental-science/forensic-science-bs-digital-forensics-concentration/
+  programs:
+  - name: B.S. Forensic Science — Digital Forensics concentration
+    url: https://catalog.njit.edu/undergraduate/science-liberal-arts/chemistry-environmental-science/forensic-science-bs-digital-forensics-concentration/
+    level: bachelor
+  cae: []
+  cdfae: false
+  aliases:
+  - new jersey institute of technology
+  poc_name: ''
+  poc_email: ''
+- id: nps
+  name: Naval Postgraduate School
+  city: Monterey
+  state: CA
+  site: https://nps.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - naval postgraduate school
+  poc_name: ''
+  poc_email: ''
+- id: oklahoma-state
+  name: Oklahoma State University
+  city: Stillwater
+  state: OK
+  site: https://osuonline.okstate.edu/programs/certificates/digital-forensics-incident-response.html
+  programs:
+  - name: Graduate Certificate in Digital Forensics and Incident Response
+    url: https://osuonline.okstate.edu/programs/certificates/digital-forensics-incident-response.html
+    level: certificate
+  cae: []
+  cdfae: false
+  aliases:
+  - oklahoma state university
+  - oklahoma state university stillwater
+  poc_name: ''
+  poc_email: ''
+- id: pace
+  name: Pace University
+  city: New York
+  state: NY
+  site: https://www.pace.edu/seidenberg/faculty-and-research/centers-and-labs/digital-forensics-research-lab
+  programs:
+  - name: Digital Forensics Research Lab
+    url: https://www.pace.edu/seidenberg/faculty-and-research/centers-and-labs/digital-forensics-research-lab
+    level: lab
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - pace university
+  poc_name: Darren Hayes
+  poc_email: dhayes@pace.edu
+- id: sjsu
+  name: San Jose State University
+  city: San Jose
+  state: CA
+  site: https://www.sjsu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - san jose state university
+  poc_name: ''
+  poc_email: ''
+- id: stockton
+  name: Stockton University
+  city: Galloway
+  state: NJ
+  site: https://stockton.edu/business/computer-information-systems.html
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - stockton university
+  poc_name: Aakash Taneja
+  poc_email: aakash.taneja@stockton.edu
+- id: schreiner
+  name: Schreiner University
+  city: Kerrville
+  state: TX
+  site: https://schreiner.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - schreiner university
+  poc_name: ''
+  poc_email: ''
+- id: southern-univ
+  name: Southern University and A&M College
+  city: Baton Rouge
+  state: LA
+  site: https://www.subr.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - southern university and agricultural and mechanical college
+  - southern university
+  poc_name: ''
+  poc_email: ''
+- id: tamuct
+  name: Texas A&M University–Central Texas
+  city: Killeen
+  state: TX
+  site: https://www.tamuct.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - texas a&m university central texas
+  - texas a m university central texas
+  poc_name: ''
+  poc_email: ''
+- id: texas-southern
+  name: Texas Southern University
+  city: Houston
+  state: TX
+  site: https://www.tsu.edu/academics/colleges-and-schools/bjml-school-public-affairs/departments/administration-of-justice/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - texas southern university
+  poc_name: Ashraf Mozayani
+  poc_email: ashraf.mozayani@tsu.edu
+- id: tntech
+  name: Tennessee Technological University
+  city: Cookeville
+  state: TN
+  site: https://www.tntech.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - tennessee technological university
+  - tennessee tech
+  poc_name: ''
+  poc_email: ''
+- id: ua
+  name: University of Alabama
+  city: Tuscaloosa
+  state: AL
+  site: https://www.ua.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - university of alabama
+  poc_name: ''
+  poc_email: ''
+- id: ualr
+  name: University of Arkansas at Little Rock
+  city: Little Rock
+  state: AR
+  site: https://ualr.edu/core/digital-forensic-lab/
+  programs:
+  - name: CORE Digital Forensic Lab
+    url: https://ualr.edu/core/digital-forensic-lab/
+    level: lab
+  cae: []
+  cdfae: false
+  aliases:
+  - university of arkansas at little rock
+  - university of arkansas little rock
+  - ualr
+  poc_name: Rebecca Passmore
+  poc_email: rpassmore@ualr.edu
+- id: uci
+  name: University of California, Irvine
+  city: Irvine
+  state: CA
+  site: https://uci.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - university of california irvine
+  poc_name: ''
+  poc_email: ''
+- id: ucsb
+  name: University of California, Santa Barbara
+  city: Santa Barbara
+  state: CA
+  site: https://www.ucsb.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - university of california santa barbara
+  poc_name: ''
+  poc_email: ''
+- id: ucsc
+  name: University of California, Santa Cruz
+  city: Santa Cruz
+  state: CA
+  site: https://www.ucsc.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - university of california santa cruz
+  poc_name: ''
+  poc_email: ''
+- id: uco
+  name: University of Central Oklahoma
+  city: Edmond
+  state: OK
+  site: https://www.uco.edu/cms/academics/forensic-science-institute/
+  programs:
+  - name: B.S. Digital Forensics
+    url: https://uco.edu/programs/fsi/fsi/digital-forensics
+    level: bachelor
+  - name: M.S. Forensic Science — Digital Forensics
+    url: https://www.uco.edu/cms/academics/forensic-science-institute/
+    level: master
+  cae: []
+  cdfae: false
+  aliases:
+  - university of central oklahoma
+  poc_name: ''
+  poc_email: ''
+- id: umd
+  name: University of Maryland, College Park
+  city: College Park
+  state: MD
+  site: https://www.umd.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of maryland college park
+  - university of maryland
+  poc_name: ''
+  poc_email: ''
+- id: umbc
+  name: University of Maryland, Baltimore County
+  city: Baltimore
+  state: MD
+  site: https://www.umbc.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of maryland baltimore county
+  - umbc
+  poc_name: ''
+  poc_email: ''
+- id: umass
+  name: University of Massachusetts Amherst
+  city: Amherst
+  state: MA
+  site: https://www.cics.umass.edu/organizations/digital-forensics-lab
+  programs:
+  - name: Digital Forensics Laboratory
+    url: https://www.cics.umass.edu/organizations/digital-forensics-lab
+    level: lab
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of massachusetts amherst
+  poc_name: Brian Levine
+  poc_email: brian@cs.umass.edu
+- id: unm
+  name: University of New Mexico
+  city: Albuquerque
+  state: NM
+  site: https://www.unm.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - university of new mexico
+  poc_name: ''
+  poc_email: ''
+- id: uno
+  name: University of New Orleans
+  city: New Orleans
+  state: LA
+  site: https://www.uno.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - university of new orleans
+  poc_name: Vassil Roussev
+  poc_email: vassil@cs.uno.edu
+- id: unomaha
+  name: University of Nebraska at Omaha
+  city: Omaha
+  state: NE
+  site: https://www.unomaha.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of nebraska at omaha
+  poc_name: ''
+  poc_email: ''
+- id: unr
+  name: University of Nevada, Reno
+  city: Reno
+  state: NV
+  site: https://www.unr.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - university of nevada reno
+  poc_name: ''
+  poc_email: ''
+- id: unc
+  name: University of North Carolina at Chapel Hill
+  city: Chapel Hill
+  state: NC
+  site: https://www.unc.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of north carolina at chapel hill
+  poc_name: ''
+  poc_email: ''
+- id: south-alabama
+  name: University of South Alabama
+  city: Mobile
+  state: AL
+  site: https://www.southalabama.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - university of south alabama
+  poc_name: ''
+  poc_email: ''
+- id: ut-dallas
+  name: The University of Texas at Dallas
+  city: Richardson
+  state: TX
+  site: https://csi.utdallas.edu/research-labs/digital-forensics-lab/
+  programs:
+  - name: Digital Forensics Lab
+    url: https://csi.utdallas.edu/research-labs/digital-forensics-lab/
+    level: lab
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - the university of texas at dallas
+  - university of texas at dallas
+  poc_name: ''
+  poc_email: ''
+- id: utah-tech
+  name: Utah Tech University
+  city: St. George
+  state: UT
+  site: https://dfcl.utahtech.edu/
+  programs:
+  - name: Digital Forensics Crime Lab
+    url: https://dfcl.utahtech.edu/
+    level: lab
+  cae: []
+  cdfae: false
+  aliases:
+  - utah tech university
+  - dixie state university
+  poc_name: ''
+  poc_email: ''
+- id: uw
+  name: University of Washington
+  city: Seattle
+  state: WA
+  site: https://www.washington.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - university of washington
+  poc_name: ''
+  poc_email: ''
+- id: ubalt
+  name: University of Baltimore
+  city: Baltimore
+  state: MD
+  site: https://www.ubalt.edu/cpa/graduate-programs-and-certificates/degree-programs/ms-cyber-forensics/
+  programs:
+  - name: M.S. Cyber Forensics
+    url: https://www.ubalt.edu/cpa/graduate-programs-and-certificates/degree-programs/ms-cyber-forensics/
+    level: master
+  cae: []
+  cdfae: false
+  aliases:
+  - university of baltimore
+  poc_name: ''
+  poc_email: ''
+- id: vcu
+  name: Virginia Commonwealth University
+  city: Richmond
+  state: VA
+  site: https://www.vcu.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  cdfae: false
+  aliases:
+  - virginia commonwealth university
+  poc_name: Irfan Ahmed
+  poc_email: iahmed3@vcu.edu
+- id: vt
+  name: Virginia Tech
+  city: Blacksburg
+  state: VA
+  site: https://www.vt.edu/
+  programs: []
+  cae:
+  - CAE-CD
+  - CAE-R
+  cdfae: false
+  aliases:
+  - virginia tech
+  - virginia polytechnic institute
+  poc_name: ''
+  poc_email: ''
+- id: wittenberg
+  name: Wittenberg University
+  city: Springfield
+  state: OH
+  site: https://www.wittenberg.edu/
+  programs: []
+  cae: []
+  cdfae: false
+  aliases:
+  - wittenberg university
+  poc_name: ''
+  poc_email: ''
+seed_ids:
+  aafs:
+  - cu-denver
+  - eku
+  - gmu
+  - iowa-state
+  - lsu
+  - marshall
+  - ncsu
+  - purdue
+  - stockton
+  - syracuse
+  - texas-southern
+  - vcu
+  dfrws:
+  - bgsu
+  - depaul
+  - gmu
+  - lsu
+  - ucsb
+  - uno
+  fsidi:
+  - afit
+  - asu
+  - augusta
+  - belhaven
+  - bridgeport
+  - case-western
+  - depaul
+  - drexel
+  - duke
+  - fau
+  - fiu
+  - fsu
+  - gmu
+  - iowa-state
+  - lewis
+  - lsu
+  - msu
+  - new-haven
+  - nps
+  - pace
+  - purdue
+  - sam-houston
+  - schreiner
+  - sjsu
+  - south-alabama
+  - southern-univ
+  - tamuct
+  - tntech
+  - towson
+  - ua
+  - uci
+  - uno
+  - unomaha
+  - unr
+  - utsa
+  - vcu
+  - vt
+  - wittenberg

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jgrover/dfir_university_tracker/schema/universities.schema.json",
+  "title": "DFIR university catalog",
+  "type": "object",
+  "required": ["version", "universities", "seed_ids"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "universities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "site": { "type": "string" },
+          "programs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "url": { "type": "string" },
+                "level": { "type": "string" }
+              }
+            }
+          },
+          "cae": { "type": "array", "items": { "type": "string" } },
+          "cdfae": { "type": "boolean" },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "poc_name": { "type": "string" },
+          "poc_email": { "type": "string" }
+        }
+      }
+    },
+    "seed_ids": {
+      "type": "object",
+      "required": ["aafs", "dfrws", "fsidi"],
+      "additionalProperties": false,
+      "properties": {
+        "aafs": { "type": "array", "items": { "type": "string" } },
+        "dfrws": { "type": "array", "items": { "type": "string" } },
+        "fsidi": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
