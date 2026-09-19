@@ -1,35 +1,31 @@
 from __future__ import annotations
 
-import json
-import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "tools"))
+from yaml_catalog import yaml_payload
 
-from yaml_to_json import convert, normalize_catalog  # noqa: E402
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_ids_are_unique_and_required() -> None:
-    payload = json.loads((ROOT / "universities.json").read_text(encoding="utf-8"))
-    ids = [row["id"] for row in payload["universities"]]
+    payload = yaml_payload()
+    ids = [str(row["id"]) for row in payload["universities"]]
     assert ids
-    assert all(row.get("name") for row in payload["universities"])
+    assert all(str(row.get("name") or "").strip() for row in payload["universities"])
     assert len(ids) == len(set(ids))
+    assert payload["version"] == 1
+    assert len(payload["universities"]) >= 80
 
 
 def test_seed_ids_refer_to_universities() -> None:
-    payload = json.loads((ROOT / "universities.json").read_text(encoding="utf-8"))
-    known = {row["id"] for row in payload["universities"]}
+    payload = yaml_payload()
+    known = {str(row["id"]) for row in payload["universities"]}
     seeds = payload["seed_ids"]
     for key in ("aafs", "dfrws", "fsidi"):
         missing = [uid for uid in seeds[key] if uid not in known]
         assert not missing, missing
 
 
-def test_yaml_converts_to_json() -> None:
-    generated = convert(ROOT / "universities.yaml", ROOT / "universities.json")
-    on_disk = json.loads((ROOT / "universities.json").read_text(encoding="utf-8"))
-    assert generated == on_disk
-    assert generated["version"] == 1
-    assert len(generated["universities"]) >= 80
+def test_json_is_not_published() -> None:
+    assert (ROOT / "universities.yaml").is_file()
+    assert not (ROOT / "universities.json").exists()

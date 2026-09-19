@@ -1,5 +1,5 @@
 # U.S. digital-forensics university catalog — source of truth.
-# Edit this YAML, then run: python tools/yaml_to_json.py
+# Edit this YAML. Consumers convert it to JSON in their own project.
 # School id values are immutable.
 
 version: 1
