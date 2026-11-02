@@ -59,8 +59,8 @@ universities:
   aliases:
   - capitol technology university
   - capitol college
-  poc_name: ''
-  poc_email: ''
+  poc_name: Christopher Gastardi
+  poc_email: clgastardi@captechu.edu
 - id: carnegie-mellon
   name: Carnegie Mellon University
   city: Pittsburgh
@@ -97,8 +97,8 @@ universities:
   cdfae: true
   aliases:
   - champlain college
-  poc_name: ''
-  poc_email: ''
+  poc_name: Mauriella DiTommaso
+  poc_email: mditommaso@champlain.edu
 - id: commonwealth-pa
   name: Commonwealth University of Pennsylvania
   city: Bloomsburg
@@ -205,10 +205,10 @@ universities:
   name: John Jay College of Criminal Justice, CUNY
   city: New York
   state: NY
-  site: https://www.jjay.cuny.edu/academics/graduate-programs/digital-forensics-cybersecurity-ms
+  site: https://www.jjay.cuny.edu/academics/graduate-programs/graduate-programs-digital-forensics-cybersecurity/ms-digital-forensics-cybersecurity
   programs:
   - name: M.S. Digital Forensics and Cybersecurity
-    url: https://www.jjay.cuny.edu/academics/graduate-programs/digital-forensics-cybersecurity-ms
+    url: https://www.jjay.cuny.edu/academics/graduate-programs/graduate-programs-digital-forensics-cybersecurity/ms-digital-forensics-cybersecurity
     level: master
   cae:
   - CAE-CD
@@ -216,8 +216,8 @@ universities:
   aliases:
   - john jay college
   - john jay college of criminal justice
-  poc_name: ''
-  poc_email: ''
+  poc_name: Shweta Jain
+  poc_email: sjain@jjay.cuny.edu
 - id: marshall
   name: Marshall University
   city: Huntington
@@ -570,14 +570,33 @@ universities:
   name: Arizona State University
   city: Tempe
   state: AZ
-  site: https://www.asu.edu/
-  programs: []
+  site: https://degrees.asu.edu/bachelors/major/ASU00/ASCPFBS/digital-forensics
+  programs:
+  - name: B.S. Digital Forensics
+    url: https://degrees.asu.edu/bachelors/major/ASU00/ASCPFBS/digital-forensics
+    level: bachelor
   cae:
   - CAE-CD
   - CAE-R
   cdfae: false
   aliases:
   - arizona state university
+  poc_name: Jihun Joun
+  poc_email: jihun.joun@asu.edu
+- id: ball-state
+  name: Ball State University
+  city: Muncie
+  state: IN
+  site: https://www.bsu.edu/academics/collegesanddepartments/csh/academic-programs/forensic-science/digital-forensics
+  programs:
+  - name: B.S. Forensic Science — Digital Forensics concentration
+    url: https://www.bsu.edu/academics/collegesanddepartments/csh/academic-programs/forensic-science/digital-forensics
+    level: bachelor
+  cae: []
+  cdfae: false
+  aliases:
+  - ball state university
+  - ball state
   poc_name: ''
   poc_email: ''
 - id: augusta
@@ -1330,8 +1349,11 @@ universities:
   name: University of Baltimore
   city: Baltimore
   state: MD
-  site: https://www.ubalt.edu/cpa/graduate-programs-and-certificates/degree-programs/ms-cyber-forensics/
+  site: https://www.ubalt.edu/schools-and-colleges/college-of-public-affairs/cpa-schools-and-centers/schools/school-of-criminal-justice/index.cfm
   programs:
+  - name: B.S. Cyber Forensics
+    url: https://www.ubalt.edu/schools-and-colleges/college-of-public-affairs/cpa-schools-and-centers/schools/school-of-criminal-justice/index.cfm
+    level: bachelor
   - name: M.S. Cyber Forensics
     url: https://www.ubalt.edu/cpa/graduate-programs-and-certificates/degree-programs/ms-cyber-forensics/
     level: master
@@ -1339,8 +1361,8 @@ universities:
   cdfae: false
   aliases:
   - university of baltimore
-  poc_name: ''
-  poc_email: ''
+  poc_name: Weifeng Xu
+  poc_email: wxu@ubalt.edu
 - id: vcu
   name: Virginia Commonwealth University
   city: Richmond
